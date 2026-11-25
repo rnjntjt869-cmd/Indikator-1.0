@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kostenloses Erstgespräch buchen | David Papa</title>
+  <meta name="description" content="Wähle einen Wunschtermin für ein kostenloses Erstgespräch: 20 bis 30 Minuten per Telefon, Video oder in Düsseldorf.">
+  <!-- Vor dem Livegang entfernen, sobald Impressum und Datenschutz vollständig sind -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0e2229">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="David Papa">
+  <meta property="og:title" content="Kostenloses Erstgespräch mit David Papa">
+  <meta property="og:description" content="Wähle einen Wunschtermin für ein kostenloses Erstgespräch: 20 bis 30 Minuten per Telefon, Video oder in Düsseldorf.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/archivo-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="index.html" aria-label="David Papa, zur Startseite">
+      <svg viewBox="0 0 40 20" aria-hidden="true"><rect width="40" height="20" rx="3"/><path d="M8 0v9M14 0v6M20 0v11M26 0v6M32 0v9" stroke-width="2"/></svg>
+      David Papa
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="ueber-mich.html">Über mich</a></li>
+        <li><a href="angebot.html">Angebot</a></li>
+        <li><a href="erfolge.html">Erfolge</a></li>
+        <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+      </ul>
+    </nav>
+    <div class="header-end">
+      <a class="btn btn--primary btn--small header-cta" href="kontakt.html">Erstgespräch buchen</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="nav-toggle__icon" aria-hidden="true"></span><span class="nav-toggle__label">Menü</span></button>
+    </div>
+  </div>
+</header>
+
+<main id="inhalt">
+
+  <section class="page-hero" aria-labelledby="page-title">
+    <div class="wrap page-hero__copy">
+      <h1 id="page-title">Kostenloses Erstgespräch</h1>
+      <p class="lead">20 bis 30 Minuten per Telefon, Video oder in Düsseldorf. Wir klären, wo du stehst, was du schon probiert hast und ob der Kilo-Pakt zu dir passt.</p>
+    </div>
+  </section>
+
+  <section class="section section--surface" aria-label="Termin anfragen">
+    <div class="wrap contact-grid">
+
+      <form class="panel" data-booking novalidate aria-labelledby="buchung-title">
+        <ol class="progress" data-progress aria-label="Fortschritt">
+          <li aria-current="step">1. Termin</li>
+          <li>2. Über dich</li>
+          <li>3. Fertig</li>
+        </ol>
+
+        <div class="booking__step" data-step="1">
+          <h2 class="booking__title" id="buchung-title" tabindex="-1" data-focus>Wann passt es dir?</h2>
+          <fieldset class="field">
+            <legend>Tag</legend>
+            <div class="cal">
+              <div class="cal__head">
+                <button class="icon-btn" type="button" data-cal-prev aria-label="Vorheriger Monat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+                <p class="cal__month" data-cal-month aria-live="polite">Kalender</p>
+                <button class="icon-btn" type="button" data-cal-next aria-label="Nächster Monat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+              </div>
+              <div class="cal__weekdays" aria-hidden="true"><span>Mo</span><span>Di</span><span>Mi</span><span>Do</span><span>Fr</span><span>Sa</span><span>So</span></div>
+              <div class="cal__days" data-cal-days></div>
+            </div>
+          </fieldset>
+          <fieldset class="field">
+            <legend>Uhrzeit</legend>
+            <div data-slots></div>
+          </fieldset>
+          <fieldset class="field">
+            <legend>Wie sollen wir sprechen?</legend>
+            <div class="chips">
+              <span class="chip"><input type="radio" name="art" id="art-telefon" value="Telefon" checked><label for="art-telefon">Telefon</label></span>
+              <span class="chip"><input type="radio" name="art" id="art-video" value="Video"><label for="art-video">Video</label></span>
+              <span class="chip"><input type="radio" name="art" id="art-vorort" value="Vor Ort"><label for="art-vorort">Vor Ort in Düsseldorf</label></span>
+            </div>
+          </fieldset>
+          <p class="form-error" data-error="1" role="alert" hidden></p>
+          <div class="form-actions">
+            <button class="btn btn--primary" type="button" data-next>Weiter</button>
+          </div>
+          <p class="field__hint">Das ist ein Wunschtermin. Ich bestätige ihn dir persönlich.</p>
+        </div>
+
+        <div class="booking__step" data-step="2" hidden>
+          <h2 class="booking__title" tabindex="-1" data-focus>Erzähl mir kurz von dir</h2>
+          <div class="field">
+            <label for="b-name">Dein Name</label>
+            <input class="input" id="b-name" name="name" type="text" autocomplete="name" aria-describedby="b-name-error">
+            <p class="field__error" id="b-name-error" hidden></p>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="b-telefon">Telefon oder WhatsApp</label>
+              <input class="input" id="b-telefon" name="telefon" type="tel" autocomplete="tel" aria-describedby="b-kontakt-hint b-telefon-error">
+              <p class="field__error" id="b-telefon-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="b-email">E-Mail</label>
+              <input class="input" id="b-email" name="email" type="email" autocomplete="email" aria-describedby="b-kontakt-hint b-email-error">
+              <p class="field__error" id="b-email-error" hidden></p>
+            </div>
+          </div>
+          <p class="field__hint" id="b-kontakt-hint">Eins von beiden reicht.</p>
+          <div class="form-row">
+            <div class="field">
+              <label for="b-gewicht">Gewicht heute <span class="muted">(optional)</span></label>
+              <div class="input-unit"><input id="b-gewicht" name="gewicht" type="number" inputmode="decimal" min="40" max="350" step="0.1"><span>kg</span></div>
+            </div>
+            <div class="field">
+              <label for="b-ziel">Zielgewicht <span class="muted">(optional)</span></label>
+              <div class="input-unit"><input id="b-ziel" name="ziel" type="number" inputmode="decimal" min="40" max="350" step="0.1"><span>kg</span></div>
+            </div>
+          </div>
+          <p class="field__hint" data-prefill-hint hidden>Übernommen aus dem Ziel-Rechner.</p>
+          <fieldset class="field">
+            <legend>Was hast du schon probiert? <span class="muted">(optional)</span></legend>
+            <div class="chips">
+              <span class="chip"><input type="checkbox" name="probiert" id="p-keto" value="Keto"><label for="p-keto">Keto</label></span>
+              <span class="chip"><input type="checkbox" name="probiert" id="p-paleo" value="Paleo"><label for="p-paleo">Paleo</label></span>
+              <span class="chip"><input type="checkbox" name="probiert" id="p-kaum" value="Kaum essen"><label for="p-kaum">Kaum essen</label></span>
+              <span class="chip"><input type="checkbox" name="probiert" id="p-nichts" value="Gar nichts essen"><label for="p-nichts">Gar nichts essen</label></span>
+              <span class="chip"><input type="checkbox" name="probiert" id="p-sport" value="Viel Sport"><label for="p-sport">Viel Sport</label></span>
+              <span class="chip"><input type="checkbox" name="probiert" id="p-shakes" value="Shakes"><label for="p-shakes">Shakes</label></span>
+              <span class="chip"><input type="checkbox" name="probiert" id="p-apps" value="Abnehm-Apps"><label for="p-apps">Abnehm-Apps</label></span>
+              <span class="chip"><input type="checkbox" name="probiert" id="p-anderes" value="Etwas anderes"><label for="p-anderes">Etwas anderes</label></span>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="b-warum">Warum willst du gerade jetzt etwas ändern? <span class="muted">(optional)</span></label>
+            <textarea class="input" id="b-warum" name="warum" rows="4"></textarea>
+          </div>
+          <div class="field">
+            <label class="check" for="b-einwilligung">
+              <input id="b-einwilligung" name="einwilligung" type="checkbox" aria-describedby="b-einwilligung-error">
+              <span>Ich bin einverstanden, dass David Papa meine Angaben, auch die zu meinem Gewicht, nutzt, um meine Anfrage zu beantworten. Ich kann das jederzeit widerrufen. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</span>
+            </label>
+            <p class="field__error" id="b-einwilligung-error" hidden></p>
+          </div>
+          <p class="form-error" data-error="2" role="alert" hidden></p>
+          <div class="form-actions">
+            <button class="btn btn--primary" type="submit">Erstgespräch anfragen</button>
+            <button class="btn btn--ghost" type="button" data-back>Zurück</button>
+          </div>
+        </div>
+
+        <div class="booking__step booking__done" data-step="3" hidden>
+          <span class="done-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+          <h2 class="booking__title" tabindex="-1" data-focus>Danke, <span data-done-name>du</span>.</h2>
+          <p>Dein Wunschtermin: <strong data-done-when></strong>, <span data-done-art></span>. Ich melde mich persönlich bei dir und bestätige den Termin.</p>
+          <p class="preview-note" data-preview hidden>Vorschau: Es wurde nichts verschickt, weil noch kein Formular-Dienst angeschlossen ist. So sieht die Bestätigung später aus.</p>
+          <a class="text-link" href="index.html">Zurück zur Startseite</a>
+        </div>
+      </form>
+
+      <div class="aside">
+        <div class="stack">
+          <h2>So geht es weiter</h2>
+          <ol class="next-steps">
+            <li>Du wählst einen Wunschtermin und erzählst mir kurz von dir.</li>
+            <li>Ich melde mich persönlich und bestätige den Termin.</li>
+            <li>Wir sprechen 20 bis 30 Minuten. Passt es, vereinbaren wir die Startmessung.</li>
+          </ol>
+        </div>
+        <div class="stack">
+          <h2>Lieber direkt schreiben?</h2>
+          <dl class="contact-list">
+            <div><dt>WhatsApp</dt><dd><span class="ph">Nummer folgt</span></dd></div>
+            <div><dt>E-Mail</dt><dd><span class="ph">Adresse folgt</span></dd></div>
+            <div><dt>Instagram</dt><dd><span class="ph">Profil folgt</span></dd></div>
+            <div><dt>TikTok</dt><dd><span class="ph">Profil folgt</span></dd></div>
+            <div><dt>Ort</dt><dd>Düsseldorf und online</dd></div>
+          </dl>
+        </div>
+        <p class="rechner__msg">Ich betreue jeden selbst. Deshalb starte ich pro Woche mit höchstens <span data-kapazitaet>4</span> neuen Leuten.</p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="David Papa, zur Startseite">
+          <svg viewBox="0 0 40 20" aria-hidden="true"><rect width="40" height="20" rx="3"/><path d="M8 0v9M14 0v6M20 0v11M26 0v6M32 0v9" stroke-width="2"/></svg>
+          David Papa
+        </a>
+        <p class="footer-claim">Körper. Kopf. Konsequenz.</p>
+        <p>1:1-Abnehmcoaching in Düsseldorf und online. Du zahlst nur pro verlorenem Kilo.</p>
+      </div>
+      <div class="footer-col">
+        <h2>Seiten</h2>
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="ueber-mich.html">Über mich</a></li>
+          <li><a href="angebot.html">Angebot</a></li>
+          <li><a href="erfolge.html">Erfolge</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Kontakt</h2>
+        <ul>
+          <li>Düsseldorf und online</li>
+          <li><span class="ph">E-Mail folgt</span></li>
+          <li><span class="ph">WhatsApp folgt</span></li>
+          <li><span class="ph">Instagram folgt</span></li>
+          <li><span class="ph">TikTok folgt</span></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Rechtliches</h2>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">Ich bin weder Arzt noch Therapeut. Mein Coaching ersetzt keine ärztliche oder psychotherapeutische Behandlung. Sprich vor dem Start mit deiner Ärztin oder deinem Arzt, besonders bei Vorerkrankungen, Medikamenten oder starkem Übergewicht. Ergebnisse sind individuell verschieden.</p>
+    <p class="copyright">© 2026 David Papa, Düsseldorf</p>
+  </div>
+</footer>
+
+</body>
+</html>
